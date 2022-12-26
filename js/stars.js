@@ -1,9 +1,4 @@
 //import utils from "./utils"
-// document.getElementByTagName("body").
-// var audio = document.createElement("AUDIO");
-// document.body.appendChild(audio);
-// audio.src = "music/music.mp3";
-// audio.play();
 
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
