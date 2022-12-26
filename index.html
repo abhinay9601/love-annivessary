@@ -12,9 +12,10 @@
 
   <body style="margin: 0px">
     <!-- autoplay loop -->
-    <!-- <audio autoplay loop>
-      <source src="music/music.mp3" type="audio/mpeog" />
+    <!-- <audio  autoplay loop>
+      <source  src="music/music.mp3" type="audio/mpeog" />
     </audio> -->
+    <audio id="audio" src="music/music.mp3" type="audio/mpeog"></audio>
     
     <canvas></canvas>
     <div id="imgTxt">
@@ -42,6 +43,7 @@
     </div>
 
     <script>
+      document.getElementById("audio").play();
       var ok = 0;
       var flag = 1;
       var myImage = document.getElementById("img");
@@ -97,13 +99,14 @@
       //  
       var len = imageArray.length;
       var t = 0;
+      
     </script>
 
     <script type="text/javascript" src="./js/stars.js"></script>
     <script type="text/javascript" src="./js/typeWriter.js"></script>
     <script type="text/javascript" src="./js/date.js"></script>
     <script type="text/javascript" src="./js/playImg.js"></script>
-    <embed src="music/music.mp3" loop="true" autostart="true" width="0"
-    height="0">
+    <!-- <embed src="music/music.mp3" loop="true" autostart="true" width="0" -->
+    <!-- height="0"> -->
   </body>
 </html>
