@@ -20,6 +20,8 @@ function typeWriter(text, para){
 		ok += 1;
 		
 	}
+	// document.getElementById("audio").play();
+
 }
 
 var typeInterval;
