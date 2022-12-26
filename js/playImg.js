@@ -15,6 +15,8 @@ function showImage(){
 }
 
 function play(){
+      setTimeout(()=>document.getElementById("audio").play(), 0);
+
 	if(t == 0){
 		myImage.setAttribute("src", "");
 		myTxt.innerHTML = "";
